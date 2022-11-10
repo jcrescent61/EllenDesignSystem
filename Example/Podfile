@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'EllenDesignSystem_Example' do
+  pod 'EllenDesignSystem', :path => '../'
+
+  target 'EllenDesignSystem_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
