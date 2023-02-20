@@ -22,7 +22,6 @@ pod 'EllenDesignSystem'
 
 ## Author
 
-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, jcrescent61@frientrip.com
 
 ## License
 
